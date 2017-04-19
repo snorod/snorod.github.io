@@ -1,91 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>snorod</title>
-		<meta charset="utf-8" />
-		<meta property="og:title" content="snorod" />
-		<meta property="og:description" content="please hire meeeeeee"/>
-		<meta name="theme-color" content="#CCFFED" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="shortcut icon" type="image/png" href="{{site.url}}/favicon.png">
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-		<base target="_blank" />
-	</head>
-	<body>
-		<header id="first-page">
-			<h2 class="details">
-				SNOROD
-			</h2>
-			<button><h3><a href="/favicon.png" download>download resume</a></h3></button>
-		</header>
-		<section id="info">
-			<h1>ABOUT SNOROD</h1>
-			<p>Stephen Norod: Loves playing video games, watching anime and movies, reading comics, programming, going to the gym, sleeping, being with friends.</p>
-		</section>
-		<section id="faq">
-			<h1>FAQ</h1>
-			<ul>
-				<li>
-					<strong>WHY IS YOUR GITHUB SO EMPTY?</strong>
-					<p>A lot of the work I do is on a private Georgia Tech GitHub.  I also don't push all of my code to GitHub anyway.</p>
-				</li>
-				<li>
-					<strong>WHAT ARE YOUR FAVORITE VIDEO GAMES, ANIME, SUPERHEROES, AND MOVIES?</strong>
-					<p>Video games: Sly Cooper, Kingdom Hearts, Injustice, Uncharted, Naruto Ultimate Ninja, BioShock, Red Dead Redemption, Smash Bros.  Anime: One Punch, Baccano, Cowboy Bebop (makes me want to cry though), Death Note, Another.  Superheroes: The Flash, Batman, Nightwing, Spider-Man.  Movies: Meet the Robinsons, The Godfather, Inception, American Beauty, Boyhood, and many more.</p>
-				</li>
-			</ul>
-		</section>
-		<footer>
-			<div class="social">
-				<a href="https://github.com/snorod" title="GitHub" class="github">
-					<i class="fa fa-github"></i>
-				</a>
-				<a href="https://www.linkedin.com/in/stephen-norod-1731a1106/" title="LinkedIn" class="linkedin">
-					<i class="fa fa-linkedin"></i>
-				</a>
-				<a href="https://twitter.com/snorod" title="Twitter" class="twitter">
-					<i class="fa fa-twitter"></i>
-				</a>
-				<a href="https://www.facebook.com/stephen.norod" title="Facebook" class="facebook">
-					<i class="fa fa-facebook"></i>
-				</a>
-				<a href="mailto:stephennorod@yahoo.com" title="Email" class="email">
-					<i class="fa fa-envelope"></i>
-				</a>
-				<a href="https://myanimelist.net/profile/snorod" title="MAL" class="mal">
-					<img src="https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png"></img>
-				</a>
-			</div>
-		</footer>
-		<script>
-			function isScrolledIntoView(el) {
-				var elemTop = el.getBoundingClientRect().top;
-				var elemBottom = el.getBoundingClientRect().bottom;
-				var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-				return isVisible;
-			}
-			var firstPage = document.getElementById("first-page");
-			var hideScrollIndicatorClass = "hide-scroll-indicator";
-			var sections = ["first-page", "info"].map(function (id) {
-				return document.getElementById(id);
-			});
-			var colors = ["#F7FFFC", "#A3E4D7"]
-			document.addEventListener("scroll", function (event) {
-				if (window.scrollY !== 0) {
-					firstPage.classList.add(hideScrollIndicatorClass);
-					for (var i = 0; i < sections.length; i++) {
-						if (isScrolledIntoView(sections[i])) {
-							document.body.style.backgroundColor = colors[i];
-						}
-					}
-				}
-				else {
-					firstPage.classList.remove(hideScrollIndicatorClass);
-					document.body.style.backgroundColor = colors[0];
-				}
-			});
-		</script>
-	</body>
-</html>
+  <html lang="en">
+  	<head>
+  		<title>snorod</title>
+  		<meta charset="utf-8" />
+  		<meta property="og:title" content="snorod" />
+  		<meta property="og:description" content="please hire meeeeeee"/>
+  		<meta name="theme-color" content="#CCFFED" />
+  		<meta name="viewport" content="width=device-width" />
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic|Abel" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="main.css">
+  		<link rel="shortcut icon" type="image/png" href="{{site.url}}/favicon.png">
+  		<link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" type="text/css" href="lightcase-2.3.4/src/css/lightcase.css">
+      <script type="text/javascript" src="lightcase-2.3.4/src/js/lighcase.js"></script>
+  		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  		<base target="_blank" />
+  	</head>
+    <body>
+      <div class="nav_bar">
+        <header id="page-head">
+          <ul class="page-head_nav">
+            <li style="float:left"><a id="title">STEPHEN NOROD - SOFTWARE ENGINEER, DC COMICS ENTHUSIAST, YELLOW JACKET</a></li>
+          </ul>
+        </header>
+        <h2 class="details">
+  				SNOROD
+  			</h2>
+        <button><h3><a href="/favicon.png" download>download resume</a></h3></button>
+      </div>
+
+<section id="footer">
+    <div class="social">
+      <a href="https://github.com/snorod" title="GitHub" class="github">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/stephen-norod-1731a1106/" title="LinkedIn" class="linkedin">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="https://twitter.com/snorod" title="Twitter" class="twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/stephen.norod" title="Facebook" class="facebook">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a href="mailto:stephennorod@yahoo.com" title="Email" class="email">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a href="https://myanimelist.net/profile/snorod" title="MAL" class="mal">
+        <img src="https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png"></img>
+      </a>
+    </div>
+</section>
+
+</body></html>

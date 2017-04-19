@@ -8,89 +8,17 @@ body {
 	font-family: "OneDay";
 	color: black;
 	background-color: #F7FFFC;
-	transition: background-color 0.5s, color 0.5s;
 }
 section {
 	margin: 0 10px;
 }
-hr {
-	border: transparent;
-    opacity: 0.1;
-}
-p {
-	font-family: "Open Sans", sans-serif;
-	text-align: justify;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#first-page {
-	height: 100%;
-}
-#first-page::after {
-	content: "\25BC";
-	font-size: 1.3em;
-    color: black;
-    font-weight: bold;
-    position: absolute;
-    bottom: 7px;
-    width: 24px;
-    left: calc(50% - 12px);
-	animation: font-scale 1.5s ease-in-out;
-	animation-iteration-count: infinite;
-    opacity: 0.5;
-	transition: opacity 0.5s;
-}
-@keyframes font-scale {
-  0% {
-    bottom: 7px;
-  }
-
-  20% {
-  	bottom: 7px;
-  }
-
-  35% {
-    bottom: 12px;
-  }
-
-  50% {
-  	bottom: 2px;
-  }
-
-  65% {
-    bottom: 12px;
-  }
-
-  80% {
-  	bottom: 2px;
-  }
-
-  95% {
-  	bottom: 7px;
-  }
-}
-#first-page.hide-scroll-indicator::after {
-	animation: none;
-	opacity: 0;
-}
-section > h1 {
-	letter-spacing: 3px;
-	font-size: 2em;
-}
 h2.details {
-	font-size: 15em;
+	font-size: 8em;
 	letter-spacing: 1px;
 
-	margin-top: 40;
-	margin-bottom: 0.5em;
+	margin-top: 20;
 	text-align: center;
 	color: #85C1E9;
-}
-#faq > ul {
-	list-style-type: none;
-	margin: auto;
-    padding: 0;
 }
 .social > a {
 	display: inline-block;
@@ -193,4 +121,9 @@ button > h3 > a:link {
 button > h3 > a:visited {
 	color: black;
 	z-index: 1;
+}
+#footer {
+position:fixed;
+   bottom:8px;
+   width:100%;
 }
