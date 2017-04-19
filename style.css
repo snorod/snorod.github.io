@@ -126,6 +126,9 @@ h2.details {
 	background: #333;
 	border: 1px solid #999;
 }
+.social > a.linkedin {
+	background: #0077B5;
+}
 .social > a.twitter {
 	background: #55ACEE;
 }
@@ -133,7 +136,7 @@ h2.details {
 	background: #3B5998;
 }
 .social > a.email {
-	background: #00DB8D;
+	background: #34495E;
 }
 a:link {
     color: #6B6B6B;
