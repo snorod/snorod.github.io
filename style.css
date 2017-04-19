@@ -108,7 +108,7 @@ h2.details {
 	text-decoration: none;
 }
 .social > a > i {
-	font-size: 16px;
+	font-size: 20px;
     width: 22px;
     line-height: 40px;
 }
@@ -133,7 +133,7 @@ h2.details {
 	background: #3B5998;
 }
 .social > a.email {
-	background: #EF5350;
+	background: #00DB8D;
 }
 a:link {
     color: #6B6B6B;
