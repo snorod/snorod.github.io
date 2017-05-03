@@ -1,78 +1,55 @@
-<!DOCTYPE html>
-  <html lang="en">
-  	<head>
-  		<title>snorod</title>
-  		<meta charset="utf-8" />
-  		<meta property="og:title" content="snorod" />
-  		<meta property="og:description" content="please hire meeeeeee"/>
-  		<meta name="theme-color" content="#CCFFED" />
-  		<meta name="viewport" content="width=device-width" />
-      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic|Abel" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" type="text/css" href="main.css">
-  		<link rel="shortcut icon" type="image/png" href="{{site.url}}/favicon.png">
-  		<link rel="stylesheet" type="text/css" href="style.css" />
-      <link rel="stylesheet" type="text/css" href="lightcase.css">
-      <script type="text/javascript" src="lightcase-2.3.4/src/js/lighcase.js"></script>
-  		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-  		<base target="_blank" />
-  	</head>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>melonJS Boilerplate</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic|Abel" rel="stylesheet" type="text/css">
+
+        <link rel="apple-touch-icon" href="icons/touch-icon-iphone-60x60.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="icons/touch-icon-ipad-76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icons/touch-icon-iphone-retina-120x120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icons/touch-icon-ipad-retina-152x152.png">
+        <link rel="manifest" href="manifest.json">
+    </head>
     <body>
+
       <div class="nav_bar">
-        <header id="page-head">
-          <ul class="page-head_nav">
-            <li style="float:left"><a id="title">STEPHEN NOROD - SOFTWARE ENGINEER, DC COMICS ENTHUSIAST, YELLOW JACKET</a></li>
-
-					</ul>
-        </header><!---
-        <h2 class="details">
-  				SNOROD
-  			</h2>
-        <button><h3><a href="/favicon.png" download>download resume</a></h3></button>--->
-      </div>
-
-			 	<div class="container">
-			  		<a><img src="http://www.swag.gatech.edu/sites/default/files/left-tower-linkedin.jpg" alt="pier" class="stretch"></a>
-			        	<div class="center">Hi, I'm <strong>Gay</strong>. Take a look at my work.</div>
-			        </div>
-			<div align="center" class="portfolio">
-
-				<a href="https://www.sjm.com/en/professionals/featured-products/heart-failure-management/hemodynamic-monitoring/pulmonary-artery-pressure-monitoring/cardiomems-hf-system">
+              <header id="page-head">
+                <ul class="page-head_nav">
+                  <li style="float:left"><a id="title">STEPHEN NOROD - SOFTWARE ENGINEER, DC COMICS ENTHUSIAST, YELLOW JACKET</a></li></ul></header></div>
 
 
-			    	<div class="gdesign-link" id="gdesign-img">
-			  				<div class="center-gdesign-link">ABBOTT/SJM - CARDIOMEMS</div></div>
-			                </a>
+        <!-- Canvas placeholder -->
+        <div id="screen"></div>
 
-			     <a href="http://www.vip.gatech.edu/teams/brain-trauma-assessment-protocols">
-					 	<div class="vip-link" id="photo-img">
-			     		<div class="center-vip-link">VIP - BTAP</div></div></a>
+        <!-- melonJS Library -->
+        <!-- build:js js/app.min.js -->
+        <script type="text/javascript" src="lib/melonJS.js"></script>
 
-			    <a href="foundations.html">
-			    	<div class="foundations-link" id="foundations-img">
-			     		<div class="center-foundations-link">lmao</div></div></a>
-						</div>
-<section id="footer">
-    <div class="social">
-      <a href="https://github.com/snorod" title="GitHub" class="github">
-        <i class="fa fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/stephen-norod-1731a1106/" title="LinkedIn" class="linkedin">
-        <i class="fa fa-linkedin"></i>
-      </a>
-      <a href="https://twitter.com/snorod" title="Twitter" class="twitter">
-        <i class="fa fa-twitter"></i>
-      </a>
-      <a href="https://www.facebook.com/stephen.norod" title="Facebook" class="facebook">
-        <i class="fa fa-facebook"></i>
-      </a>
-      <a href="mailto:stephennorod@yahoo.com" title="Email" class="email">
-        <i class="fa fa-envelope"></i>
-      </a>
-      <a href="https://myanimelist.net/profile/snorod" title="My Anime List" class="mal">
-        <img src="https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png"></img>
-      </a>
-    </div>
-</section>
+        <!-- Plugin(s) -->
+        <script type="text/javascript" src="lib/plugins/debug/debugPanel.js"></script>
 
-</body></html>
+        <!-- Game Scripts -->
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="build/js/resources.js"></script>
+
+        <script type="text/javascript" src="js/entities/entities.js"></script>
+        <script type="text/javascript" src="js/entities/HUD.js"></script>
+
+        <script type="text/javascript" src="js/screens/title.js"></script>
+        <script type="text/javascript" src="js/screens/play.js"></script>
+        <!-- /build -->
+
+        <!-- Bootstrap -->
+        <script type="text/javascript">
+            window.onReady(function onReady() {
+                game.onload();
+            });
+        </script>
+    </body>
+</html>
