@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*LINKS*/
+
+a {
+	text-decoration: none;
+	color: #BC6969;
+}
+
+a:hover {
+		}
+
+a.navlink {
+	display:inline;
+	color: white;
+	padding: 30px 30px 15px 30px;
+	text-decoration: none;
+	font-weight: none;
+	}
+
+a.navlink:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+    font-weight: none;
+	border-bottom: 5px solid #FFFFFF;
+
+
+}
+
+a#current {
+	color: #FFFFFF;
+	text-decoration: none;
+    font-weight: none;
+	border-bottom: 5px solid #FFFFFF;}
+
+/*END LINKS*/
+
+
+div.second {
+	width: 20%;
+	background-color: #585858;
+	color: #FFFFFF;
+	padding: 10px;
+	display: inline-block;
+}
+
+body {
+	background-color:#FFFFFF;
+	color: #585858;
+	font-family: 'Abel', sans-serif;
+    margin: 0px;
+        padding: 0px;
+	}
+
+/* HEADER */
+
+h1 {
+	font-family: 'Abel', sans-serif;
+    font-weight: none;
+    font-size: 30px;
+    float:center;
+}
+
+.container {
+    width:100%;
+    height: auto;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+img.container {
+    opacity: 0.2;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+
+}
+
+.stretch {
+    width:100%;
+		height: 350px;
+		margin:  -10px 0px -10px 0px;
+    padding: 0px;
+}
+
+.stretch3 {
+    width:100%;
+    margin:  0px;
+    padding: 0px;
+	opacity: .8
+}
+
+
+/*END HEADER*/
+
+/*NAVIGATION BAR*/
+
+.navbar {
+    display: inline;
+    width: 100%;
+}
+
+#title {
+    font-family: Abel, serif;
+	padding: 0px 20px 20px 20px;
+    margin: 0px;
+    font-size: 20px;
+	font-weight: none;
+    letter-spacing: 3px;
+
+}
+
+.page-head {
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 100px;
+    display: inline;
+
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	background-color: #3B5998;
+	overflow:hidden;
+    font-size: 20px;
+
+
+	}
+
+li {
+	float:left;
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+}
+
+/*END NAVIGATION BAR*/
+
+#containercontent {
+	opacity: .1;
+}
+
+
+/*PORTFOLIO*/
+
+.portfolio {
+
+
+	}
+
+
+
+/*GRAPHIC*/
+
+div.gdesign-link {
+	background-color: #009CDE;
+	width: 400px;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+	color: #00254C;
+	opacity: 1;
+	transition: all 0.5s linear;
+
+}
+
+				#gdesign-img:hover {
+					background-image:url(http://a360-wp-uploads.s3.amazonaws.com/wp-content/uploads/rtmagazi/2015/08/heart-3d-500-466x310.jpg);
+					height: 300px;
+					width: 400px;
+					opacity: 0.3;
+
+				}
+
+
+
+
+div.center-gdesign-link {
+	position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+/*PHOTO*/
+
+div.vip-link {
+	background-color: #f5d376;
+	width: 400px;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+	transition: all 0.5s linear;
+}
+
+		#photo-img:hover {
+			background-image: url(http://www.vip.gatech.edu/sites/default/files/styles/node_singleimg/public/field_fc_multi_slideshow/field_fci_media/201502/brain%20trauma.jpg?itok=SqEuk8fR);
+			opacity: .3;
+			height: 300px;
+			width:400px;
+		}
+
+
+
+
+div.center-vip-link {
+	position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+  	color: #00254C;
+}
+
+/*FOUNDATIONS*/
+
+
+
+div.foundations-link {
+	background-color: #E1E8F1;
+	width: 400px;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+	color: #A3ACBD;
+
+	transition: all 0.5s linear;
+
+}
+
+				#foundations-img:hover {
+					background-image: url(../images/Foundations-web.jpg);
+					opacity: .3;
+					height: 200px;
+					width: 400px;
+				}
+
+div.center-foundations-link {
+	position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    color: #FFFFFF;
+
+	transition: all 0.5s linear;
+}
+
+
+			div.center-foundations-link: hover {
+				position: absolute;
+				left: 0;
+				top: 45%;
+				width: 100%;
+				text-align: center;
+				font-size: 26px;
+				color: #A3ACBD;
+			}
+
+/*ABOUT*/
+
+.info {
+	color: #55585E;
+	padding: 0px 10px 10px 10px;
+
+}
+
+.contactimg {
+	width: 35%;
+	height: auto;
+
+}
+
+
+/*SHOWCASE*/
+
+.showcase {
+	width:300px;
+	display:inline-block;
+	padding:10px;
+}
