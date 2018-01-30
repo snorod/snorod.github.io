@@ -1,0 +1,158 @@
+.navbar {
+    display: inline;
+    width: 100%;
+}
+
+#title {
+    font-family: Abel, serif;
+	padding: 0px 20px 20px 20px;
+    margin: 0px;
+    font-size: 20px;
+	font-weight: none;
+    letter-spacing: 3px;
+}
+
+
+
+.page-head {
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 100px;
+    display: inline;
+}
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	background-color: #3B5998;
+	overflow:hidden;
+    font-size: 20px;
+
+
+	}
+
+li {
+	float:left;
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+}
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+	font-family: "OneDay";
+	color: black;
+	background-color: #FFFFFF;
+
+    /* Allow mouse dragging. */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    /* disable touch panning/zooming */
+    -ms-touch-action: none;
+    touch-action: none;
+
+    /* Allow canvas to hit the edges of the browser viewport. */
+    margin: 0;
+}
+
+#screen canvas {
+    margin: auto;
+    position: fixed;
+    top: 10;
+    left: 0px;
+    z-index: -1;
+    /* Hide the gap for font descenders. */
+    display: block;
+
+    /* disable scaling interpolation */
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+
+
+
+.social > a {
+	display: inline-block;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    background: none;
+    vertical-align: middle;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: #fff !important;
+    border-radius: 50%;
+    transition: all 0.3s;
+	text-decoration: none;
+}
+.social > a > i {
+	font-size: 20px;
+    width: 22px;
+    line-height: 40px;
+}
+.social > a > img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #2E51A2;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+}
+.social > a.github {
+	background: #333;
+}
+.social > a.linkedin {
+	background: #0077B5;
+}
+.social > a.twitter {
+	background: #55ACEE;
+}
+.social > a.facebook {
+	background: #3B5998;
+}
+.social > a.email {
+	background: #34495E;
+}
+.social > a.resume {
+	background: #34495E;
+}
+a:link {
+    color: #6B6B6B;
+}
+a:visited {
+    color: #bdc3c7;
+}
+
+
+#footer {
+position:fixed;
+   bottom:8px;
+   width:100%;
+}
