@@ -12,7 +12,7 @@
 
 
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic|Abel" rel="stylesheet" type="text/css">
-        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link rel="apple-touch-icon" href="icons/touch-icon-iphone-60x60.png">
         <link rel="apple-touch-icon" sizes="76x76" href="icons/touch-icon-ipad-76x76.png">
         <link rel="apple-touch-icon" sizes="120x120" href="icons/touch-icon-iphone-retina-120x120.png">
@@ -23,10 +23,30 @@
     </head>
     <body>
 
-      <div class="nav_bar">
-              <header id="page-head">
+      <div class="navbar">
+              <header class="page-head">
                 <ul class="page-head_nav">
-                  <li style="float:left"><a id="title">STEPHEN NOROD - COMPUTER ENGINEER, YELLOW JACKET</a></li></ul></header></div>
+                  <li style="float:left"><a id="title">STEPHEN NOROD - COMPUTER ENGINEER, YELLOW JACKET      너랃스티븐</a></li>
+
+
+
+
+
+
+                <li style="float:right" ><a id="title">PROJECTS <i class="fa fa-angle-down"></i>
+                <span class="drop-down"></span></a>
+                <ul>
+                <li><a href="https://www.sjm.com/en/patients/heart-failure/our-solutions/pulmonary-artery-pressure-monitoring/cardiomems-hf-system"
+                  title="CardioMEMS">CardioMEMS</a></li>
+                <li><a href="http://www.vip.gatech.edu/teams/brain-trauma-assessment-protocols" title = "BTAP">Brain Trauma Assessment Protocols</a></li>
+                </ul>
+              </li>
+                </ul>
+                </header>
+
+              </div>
+
+
 <!-- TODO FIX BORDER THING FOR CHROME YOU COVERED UP WITH BLACK -->
 
         <!-- Canvas placeholder -->
@@ -43,6 +63,31 @@
                 game.onload();
             });
         </script>
+
+
+
+        <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+              }
+          }
+        }
+        </script>
+
+
+
+
+
 
         <section id="footer">
             <div class="social">
@@ -69,6 +114,11 @@
               </a>
             </div>
         </section>
+
+
+
+
+
 
 
     </body>

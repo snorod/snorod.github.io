@@ -45,6 +45,11 @@ game.resources = [
         "src": "data/img/clouds.png"
     },
     {
+        "name": "death_star",
+        "type": "image",
+        "src": "data/img/death_star.png"
+    },
+    {
         "name": "title_screen",
         "type": "image",
         "src": "data/img/gui/title_screen.png"
@@ -53,6 +58,16 @@ game.resources = [
         "name": "area01_level_tiles",
         "type": "image",
         "src": "data/img/map/area01_level_tiles.png"
+    },
+    {
+        "name": "brick_orig",
+        "type": "image",
+        "src": "data/img/map/brick_orig.png"
+    },
+    {
+        "name": "brick",
+        "type": "image",
+        "src": "data/img/map/brick.png"
     },
     {
         "name": "city_bg",
@@ -70,9 +85,24 @@ game.resources = [
         "src": "data/img/sprite/abbott.png"
     },
     {
+        "name": "arrow",
+        "type": "image",
+        "src": "data/img/sprite/arrow.png"
+    },
+    {
         "name": "batman_test",
         "type": "image",
         "src": "data/img/sprite/batman_test.png"
+    },
+    {
+        "name": "death_star",
+        "type": "image",
+        "src": "data/img/sprite/death_star.png"
+    },
+    {
+        "name": "Dest Image",
+        "type": "image",
+        "src": "data/img/sprite/Dest Image.png"
     },
     {
         "name": "flash_run_right",

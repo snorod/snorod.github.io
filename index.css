@@ -13,12 +13,23 @@
 }
 
 
-
 .page-head {
     padding-bottom: 0px;
     position: relative;
     z-index: 100px;
     display: inline;
+
+    background: #7dad16;
+    background: -moz-linear-gradient(top, #7dad16 0%, #547b00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7dad16), color-stop(100%,#547b00));
+    background: -webkit-linear-gradient(top, #7dad16 0%,#547b00 100%);
+    background: -o-linear-gradient(top, #7dad16 0%,#547b00 100%);
+    background: -ms-linear-gradient(top, #7dad16 0%,#547b00 100%);
+    background: linear-gradient(top, #7dad16 0%,#547b00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dad16', endColorstr='#547b00',GradientType=0 );
+
+    width: 900px;
+
 }
 
 
@@ -26,7 +37,7 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 20px;
-	background-color: #3B5998;
+	background-color: #d0f4f7;
 	overflow:hidden;
     font-size: 20px;
 
@@ -38,12 +49,154 @@ li {
     display: inline;
 }
 
+li:hover {
+
+    background: #7dad16;
+
+}
+
 li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     display: inline;
     font-size: 20px;
+
+    display: inline;
+
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #a6c3c5;
 }
+
+
+
+
+
+
+ul li {
+  border-left: 1px solid #7dad16;
+  float: left;
+}
+ul li:first-child {
+  border: none;
+}
+ul li a {
+  color: #2b4001;
+  display: inline;
+  padding: 20px;
+  position: relative;
+  width: 139px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #9fc255;
+}
+ul li a span.drop-down {
+
+  height: 7px;
+  position: absolute;
+  right: 20px;
+  top: 24px;
+
+}
+ul li:hover {
+  background: #7dad16;
+}
+ul li ul {
+  display: none;
+}
+ul li:hover ul {
+  background: rgba(0, 0, 0, .75);
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  padding: 10px;
+  position: absolute;
+}
+ul li ul li {
+  float: none;
+  display: inline;
+  border-left: none;
+  position: relative;
+}
+ul li ul li a {
+
+  padding: 15px 10px;
+  border-top: dotted 1px #7dad16;
+  color: #fff;
+}
+
+
+
+#main-nav {
+  background: #7dad16;
+  background: -moz-linear-gradient(top, #7dad16 0%, #547b00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7dad16), color-stop(100%,#547b00));
+  background: -webkit-linear-gradient(top, #7dad16 0%,#547b00 100%);
+  background: -o-linear-gradient(top, #7dad16 0%,#547b00 100%);
+  background: -ms-linear-gradient(top, #7dad16 0%,#547b00 100%);
+  background: linear-gradient(top, #7dad16 0%,#547b00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dad16', endColorstr='#547b00',GradientType=0 );
+  float: left;
+  width: 900px;
+  z-index: 1000;
+}
+#main-nav ul {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+  list-style: none;
+}
+#main-nav ul li {
+  border-left: 1px solid #7dad16;
+  float: left;
+}
+#main-nav ul li:first-child {
+  border: none;
+}
+#main-nav ul li a {
+  color: #2b4001;
+  display: block;
+  padding: 20px;
+  position: relative;
+  width: 139px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #9fc255;
+}
+#main-nav ul li a span.drop-down {
+  background: url(images/down-arrow_green_10x7.png) no-repeat;
+  height: 7px;
+  position: absolute;
+  right: 20px;
+  top: 24px;
+  width: 10px;
+}
+#main-nav ul li:hover {
+  background: #7dad16;
+}
+#main-nav ul li ul {
+  display: none;
+}
+#main-nav ul li:hover ul {
+  background: rgba(0, 0, 0, .75);
+  display: block;
+  font-size: .9em;
+  font-weight: normal;
+  padding: 10px;
+  position: absolute;
+}
+#main-nav ul li ul li {
+  float: none;
+  display: block;
+  border-left: none;
+  position: relative;
+}
+#main-nav ul li ul li a {
+  width: 170px;
+  padding: 15px 10px;
+  border-top: dotted 1px #7dad16;
+  color: #fff;
+}
+
+
 
 
 html, body {
@@ -56,7 +209,7 @@ body {
   width: 100%;
 	font-family: "OneDay";
 	color: black;
-	background-color: #FFFFFF;
+	background-color: #d0f4f7;
 
     /* Allow mouse dragging. */
     -moz-user-select: none;
@@ -91,9 +244,6 @@ body {
     image-rendering: pixelated;
     -ms-interpolation-mode: nearest-neighbor;
 }
-
-
-
 
 .social > a {
 	display: inline-block;
@@ -149,7 +299,6 @@ a:link {
 a:visited {
     color: #bdc3c7;
 }
-
 
 #footer {
 position:fixed;
