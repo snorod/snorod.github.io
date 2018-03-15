@@ -55,9 +55,19 @@ game.resources = [
         "src": "data/img/gui/title_screen.png"
     },
     {
+        "name": "MAL",
+        "type": "image",
+        "src": "data/img/MAL.png"
+    },
+    {
         "name": "area01_level_tiles",
         "type": "image",
         "src": "data/img/map/area01_level_tiles.png"
+    },
+    {
+        "name": "brick_old",
+        "type": "image",
+        "src": "data/img/map/brick_old.png"
     },
     {
         "name": "brick_orig",
@@ -78,6 +88,11 @@ game.resources = [
         "name": "city",
         "type": "image",
         "src": "data/img/map/city_tileset/city.png"
+    },
+    {
+        "name": "abbott_building",
+        "type": "image",
+        "src": "data/img/sprite/abbott_building.png"
     },
     {
         "name": "abbott",
@@ -103,6 +118,11 @@ game.resources = [
         "name": "Dest Image",
         "type": "image",
         "src": "data/img/sprite/Dest Image.png"
+    },
+    {
+        "name": "directions",
+        "type": "image",
+        "src": "data/img/sprite/directions.png"
     },
     {
         "name": "flash_run_right",
@@ -143,6 +163,11 @@ game.resources = [
         "name": "gripe_run_right",
         "type": "image",
         "src": "data/img/sprite/gripe_run_right.png"
+    },
+    {
+        "name": "kakashi",
+        "type": "image",
+        "src": "data/img/sprite/kakashi.png"
     },
     {
         "name": "spinning_coin_gold",
