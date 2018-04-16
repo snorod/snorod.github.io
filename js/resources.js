@@ -45,6 +45,11 @@ game.resources = [
         "src": "data/img/buildings.png"
     },
     {
+        "name": "buildings2",
+        "type": "image",
+        "src": "data/img/buildings2.png"
+    },
+    {
         "name": "clouds",
         "type": "image",
         "src": "data/img/clouds.png"
