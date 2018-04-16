@@ -55,6 +55,11 @@ game.resources = [
         "src": "data/img/clouds.png"
     },
     {
+        "name": "controls",
+        "type": "image",
+        "src": "data/img/controls.png"
+    },
+    {
         "name": "death_star_2_trans",
         "type": "image",
         "src": "data/img/death_star_2_trans.png"
