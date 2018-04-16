@@ -40,9 +40,24 @@ game.resources = [
         "src": "data/img/background.png"
     },
     {
+        "name": "buildings",
+        "type": "image",
+        "src": "data/img/buildings.png"
+    },
+    {
         "name": "clouds",
         "type": "image",
         "src": "data/img/clouds.png"
+    },
+    {
+        "name": "death_star_2_trans",
+        "type": "image",
+        "src": "data/img/death_star_2_trans.png"
+    },
+    {
+        "name": "death_star_2",
+        "type": "image",
+        "src": "data/img/death_star_2.png"
     },
     {
         "name": "death_star",
@@ -63,6 +78,16 @@ game.resources = [
         "name": "area01_level_tiles",
         "type": "image",
         "src": "data/img/map/area01_level_tiles.png"
+    },
+    {
+        "name": "brick_backup",
+        "type": "image",
+        "src": "data/img/map/brick_backup.png"
+    },
+    {
+        "name": "brick_og",
+        "type": "image",
+        "src": "data/img/map/brick_og.png"
     },
     {
         "name": "brick_old",
