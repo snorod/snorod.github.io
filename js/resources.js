@@ -40,6 +40,11 @@ game.resources = [
         "src": "data/img/background.png"
     },
     {
+        "name": "bigMAL",
+        "type": "image",
+        "src": "data/img/bigMAL.png"
+    },
+    {
         "name": "buildings",
         "type": "image",
         "src": "data/img/buildings.png"
@@ -78,6 +83,16 @@ game.resources = [
         "name": "title_screen",
         "type": "image",
         "src": "data/img/gui/title_screen.png"
+    },
+    {
+        "name": "intro",
+        "type": "image",
+        "src": "data/img/intro.png"
+    },
+    {
+        "name": "LMAL",
+        "type": "image",
+        "src": "data/img/LMAL.png"
     },
     {
         "name": "MAL",
