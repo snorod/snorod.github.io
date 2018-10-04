@@ -4,6 +4,8 @@
 
 }
 
+/*https://myanimelist.cdn-dena.com/img/sp/icon/apple-touch-icon-256.png*/
+
 #title {
     font-family: Abel, serif;
 	padding: 0px 0px 10px 20px;
@@ -67,6 +69,15 @@ li a {
     text-shadow: 0 1px 1px #a6c3c5;
 }
 
+
+
+
+
+
+ul li {
+  /*border-left: 1px solid #C0E8EC;*/
+
+}
 ul li:first-child {
   border: none;
 }
@@ -87,6 +98,9 @@ ul li a span.drop-down {
   right: 20px;
   top: 24px;
 
+}
+ul li:hover {
+   /*background: #C0E8EC;*/
 }
 ul li ul {
   display: none;
@@ -111,6 +125,7 @@ ul li ul li {
 ul li ul li a {
 
   padding: 15px 10px;
+  /*border-top: dotted 1px #C0E8EC;*/
   color: #333;
 
 }
