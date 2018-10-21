@@ -135,6 +135,11 @@ game.resources = [
         "src": "data/img/map/city_tileset/city_bg.png"
     },
     {
+        "name": "grass",
+        "type": "image",
+        "src": "data/img/map/grass.png"
+    },
+    {
         "name": "city",
         "type": "image",
         "src": "data/img/map/city_tileset/city.png"
