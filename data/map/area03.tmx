@@ -74,12 +74,6 @@
     <property name="image" value="tech_tower"/>
    </properties>
   </object>
-  <object id="51" x="236" y="28" width="430" height="116">
-   <properties>
-    <property name="framewidth" type="int" value="430"/>
-    <property name="image" value="intro"/>
-   </properties>
-  </object>
   <object id="59" x="236" y="154" width="60" height="36">
    <properties>
     <property name="framewidth" type="int" value="60"/>
