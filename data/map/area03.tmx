@@ -81,21 +81,21 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup id="11" name="npc">
+  <object id="43" name="kakashi" x="482.208" y="254.233" width="91" height="74">
+   <properties>
+    <property name="frameheight" type="int" value="74"/>
+    <property name="framewidth" type="int" value="91"/>
+    <property name="image" value="kakashi"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="10" name="mainPlayer">
   <object id="1" name="mainPlayer" x="225" y="294.667" width="69" height="64">
    <properties>
     <property name="frameheight" type="int" value="64"/>
     <property name="framewidth" type="int" value="69"/>
     <property name="image" value="gripe_run_right_trans"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="11" name="kakashi">
-  <object id="43" name="kakashi" x="482.208" y="254.233" width="91" height="74">
-   <properties>
-    <property name="frameheight" type="int" value="74"/>
-    <property name="framewidth" type="int" value="91"/>
-    <property name="image" value="kakashi"/>
    </properties>
   </object>
  </objectgroup>
