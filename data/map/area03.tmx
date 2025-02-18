@@ -71,7 +71,7 @@
   </data>
  </layer>
  <objectgroup id="9" name="techTower">
-  <object id="24" x="3.77358" y="-27.1509" width="174" height="333">
+  <object id="24" name="techTower" x="3.77358" y="-27.1509" width="174" height="333">
    <properties>
     <property name="framewidth" type="int" value="174"/>
     <property name="image" value="tech_tower"/>
@@ -94,7 +94,7 @@
   </object>
  </objectgroup>
  <objectgroup id="16" name="jinbe_layer">
-  <object id="61" name="jinbe" x="370.049" y="227.589" width="100" height="100">
+  <object id="61" name="jinbe" x="47.6598" y="271.102" width="100" height="100">
    <properties>
     <property name="frameheight" value="100"/>
     <property name="framewidth" value="100"/>
@@ -103,7 +103,7 @@
   </object>
  </objectgroup>
  <objectgroup id="10" name="mainPlayer">
-  <object id="1" name="mainPlayer" x="57.0755" y="307.875" width="69" height="64">
+  <object id="1" name="mainPlayer" x="138.167" y="307.875" width="69" height="64">
    <properties>
     <property name="frameheight" type="int" value="64"/>
     <property name="framewidth" type="int" value="69"/>
