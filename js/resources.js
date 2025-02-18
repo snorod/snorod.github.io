@@ -225,6 +225,11 @@ game.resources = [
         "src": "data/img/sprite/kakashi.png"
     },
     {
+        "name": "jinbe",
+        "type": "image",
+        "src": "data/img/sprite/jinbe.png"
+    },
+    {
         "name": "spinning_coin_gold",
         "type": "image",
         "src": "data/img/sprite/spinning_coin_gold.png"
