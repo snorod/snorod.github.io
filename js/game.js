@@ -64,8 +64,9 @@ var game = {
         // Bind keyboard controls
         me.input.bindKey(me.input.KEY.LEFT, "left");
         me.input.bindKey(me.input.KEY.RIGHT, "right");
-        me.input.bindKey(me.input.KEY.SPACE, "jump", true);
         me.input.bindKey(me.input.KEY.UP, "jump", true);
+        me.input.bindKey(me.input.KEY.SPACE, "jump", true);
+        me.input.bindKey(me.input.KEY.DOWN, "down");
         me.input.bindKey(me.input.KEY.J, "play_as_jinbe");
         me.input.bindKey(me.input.KEY.B, "play_as_batman");
         
