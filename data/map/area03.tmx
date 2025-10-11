@@ -108,6 +108,7 @@
     <property name="frameheight" type="int" value="64"/>
     <property name="framewidth" type="int" value="69"/>
     <property name="image" value="gripe_run_right_trans"/>
+    <property name="alwaysUpdate" type="bool" value="true"/>
    </properties>
   </object>
  </objectgroup>
